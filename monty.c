@@ -9,8 +9,7 @@
 
 int main(int argc, char **argv)
 {
-	FILE *file; 
-		
+	FILE *file;
 
 	if (!(argc > 1 && argc < 3))
 	{
