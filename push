@@ -1,0 +1,24 @@
+#include "monty.h"
+
+/**
+ * push - to add element to stack
+ * @val: element to be added
+ */
+
+void push(char *val)
+{
+	int num;
+	/*char sta[100];*/
+
+	num = atoi(val);
+	/*sta[0] = num;*/
+
+	printf("%d\n", num);
+	/*i = 0;
+	while (sta[i])
+	{
+		printf("%c", sta[i]);
+		i++;
+	}
+	printf("\n");*/
+}
